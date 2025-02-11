@@ -1,4 +1,4 @@
-package refactorizacion;
+package com.endes;
 
 public class Running {
 

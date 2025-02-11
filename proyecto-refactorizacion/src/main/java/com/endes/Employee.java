@@ -1,4 +1,4 @@
-package refactorizacion;
+package com.endes;
 
 public class Employee {
 	String name;
@@ -15,7 +15,7 @@ public class Employee {
 	}
 	
 	/**
-	 * Getter employee's name
+	 * Getter employee name
 	 * @return name
 	 */
 	public String getName() {
@@ -31,7 +31,7 @@ public class Employee {
 	}
 	
 	/**
-	 * Setter employee's name 
+	 * Setter employee name 
 	 * @param name
 	 */
 	public void setName(String name) {
