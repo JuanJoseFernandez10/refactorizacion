@@ -4,13 +4,19 @@ public class Products {
 	// Variables de la clase productos
     String productName;
     double productPrice;
-
+    int id;
     
     /**
      * Constructor of Product class
      * @param name
      * @param price
      */
+    public Products(int id, String name, double price) {
+    	this.id = id;
+    	this.productName = name;
+    	this.productPrice = price;
+    }
+    
     public Products(String name, double price) {
     	this.productName = name;
     	this.productPrice = price;
